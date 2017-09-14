@@ -9,14 +9,14 @@
 
 ### Addresses
 
-- Pool:  yi7C5qaGrRnvpZ5dzdTynA1kuQ9THQC7o4
-- Bob:   yTUdbzzhvn1P1c6VNJPwQu1nutfUAL1avy
-- Alice: yfaRkKtzfRDyagZMkTc6G1QuijH2KGzayy
+- Pool:  tmQsdv2k62MC6KPYWKUA5mFhoVVbk5w7Dnt
+- Bob:   tmBTgq1KoKREzRwbKuqZvcTZpTmrxcF7u7C
+- Alice: tmG6nRiPJrkrzWQYzyyaJLxssXTopyjChY4
 
 ### To run this image with internal ports exposed at host:
 
 ```bash
-docker run -it -d -p 16001:16001 -p 16002:16002 -p 16003:16003 oweichhold/dash-private-testnet
+docker run -it -d -p 16001:16001 -p 16002:16002 -p 16003:16003 oweichhold/zcash-private-testnet
 ```
 
 ### Generating blocks:

@@ -1,0 +1,242 @@
+2017-09-14 15:17:12 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2017-09-14 15:17:12 Zcash version v1.0.11 (2017-08-15 09:22:56 -0700)
+2017-09-14 15:17:12 Using OpenSSL version OpenSSL 1.1.0d  26 Jan 2017
+2017-09-14 15:17:12 Using BerkeleyDB version Berkeley DB 6.2.23: (March 28, 2016)
+2017-09-14 15:17:12 Default data directory /.zcash
+2017-09-14 15:17:12 Using data directory /data/node-pool/regtest
+2017-09-14 15:17:12 Using config file /data/node-pool/zcash.conf
+2017-09-14 15:17:12 Using at most 125 connections (1048576 file descriptors available)
+2017-09-14 15:17:12 Using 4 threads for script verification
+2017-09-14 15:17:12 scheduler thread start
+2017-09-14 15:17:12 Loading verifying key from /.zcash-params/sprout-verifying.key
+2017-09-14 15:17:12 Loaded verifying key in 0.001985s seconds.
+2017-09-14 15:17:12 HTTP: creating work queue of depth 16
+2017-09-14 15:17:12 HTTP: starting 4 worker threads
+2017-09-14 15:17:12 Using wallet wallet.dat
+2017-09-14 15:17:12 init message: Verifying wallet...
+2017-09-14 15:17:12 CDBEnv::Open: LogDir=/data/node-pool/regtest/database ErrorFile=/data/node-pool/regtest/db.log
+2017-09-14 15:17:12 Bound to [::]:18001
+2017-09-14 15:17:12 Bound to 0.0.0.0:18001
+2017-09-14 15:17:12 Cache configuration:
+2017-09-14 15:17:12 * Using 2.0MiB for block index database
+2017-09-14 15:17:12 * Using 32.5MiB for chain state database
+2017-09-14 15:17:12 * Using 65.5MiB for in-memory UTXO set
+2017-09-14 15:17:12 init message: Loading block index...
+2017-09-14 15:17:12 Opening LevelDB in /data/node-pool/regtest/blocks/index
+2017-09-14 15:17:12 Opened LevelDB successfully
+2017-09-14 15:17:12 Opening LevelDB in /data/node-pool/regtest/chainstate
+2017-09-14 15:17:12 Opened LevelDB successfully
+2017-09-14 15:17:12 LoadBlockIndexDB: last block file = 0
+2017-09-14 15:17:12 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2017-09-14 15:17:12 Checking all blk files are present...
+2017-09-14 15:17:12 LoadBlockIndexDB: transaction index disabled
+2017-09-14 15:17:12 Initializing databases...
+2017-09-14 15:17:12 Pre-allocating up to position 0x1000000 in blk00000.dat
+2017-09-14 15:17:12 UpdateTip: new best=029f11d80ef9765602235e1bc9727e3eb6ba20839319f761fee920d63401e327  height=0  log2_work=4.0874628  tx=1  date=2011-02-02 23:16:42 progress=1.000000  cache=0.0MiB(0tx)
+2017-09-14 15:17:13 init message: Verifying blocks...
+2017-09-14 15:17:13  block index              72ms
+2017-09-14 15:17:13 init message: Loading wallet...
+2017-09-14 15:17:13 nFileVersion = 1001150
+2017-09-14 15:17:13 Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+2017-09-14 15:17:13 ZKeys: 0 plaintext, 0 encrypted, 0 w/metadata, 0 total
+2017-09-14 15:17:13 Performing wallet upgrade to 60000
+2017-09-14 15:17:13 keypool added key 1, size=1
+2017-09-14 15:17:13 keypool added key 2, size=2
+2017-09-14 15:17:13 keypool added key 3, size=3
+2017-09-14 15:17:13 keypool added key 4, size=4
+2017-09-14 15:17:13 keypool added key 5, size=5
+2017-09-14 15:17:13 keypool added key 6, size=6
+2017-09-14 15:17:13 keypool added key 7, size=7
+2017-09-14 15:17:13 keypool added key 8, size=8
+2017-09-14 15:17:13 keypool added key 9, size=9
+2017-09-14 15:17:13 keypool added key 10, size=10
+2017-09-14 15:17:13 keypool added key 11, size=11
+2017-09-14 15:17:13 keypool added key 12, size=12
+2017-09-14 15:17:13 keypool added key 13, size=13
+2017-09-14 15:17:13 keypool added key 14, size=14
+2017-09-14 15:17:13 keypool added key 15, size=15
+2017-09-14 15:17:13 keypool added key 16, size=16
+2017-09-14 15:17:13 keypool added key 17, size=17
+2017-09-14 15:17:13 keypool added key 18, size=18
+2017-09-14 15:17:13 keypool added key 19, size=19
+2017-09-14 15:17:13 keypool added key 20, size=20
+2017-09-14 15:17:13 keypool added key 21, size=21
+2017-09-14 15:17:13 keypool added key 22, size=22
+2017-09-14 15:17:13 keypool added key 23, size=23
+2017-09-14 15:17:13 keypool added key 24, size=24
+2017-09-14 15:17:13 keypool added key 25, size=25
+2017-09-14 15:17:13 keypool added key 26, size=26
+2017-09-14 15:17:13 keypool added key 27, size=27
+2017-09-14 15:17:13 keypool added key 28, size=28
+2017-09-14 15:17:13 keypool added key 29, size=29
+2017-09-14 15:17:13 keypool added key 30, size=30
+2017-09-14 15:17:13 keypool added key 31, size=31
+2017-09-14 15:17:13 keypool added key 32, size=32
+2017-09-14 15:17:13 keypool added key 33, size=33
+2017-09-14 15:17:13 keypool added key 34, size=34
+2017-09-14 15:17:13 keypool added key 35, size=35
+2017-09-14 15:17:13 keypool added key 36, size=36
+2017-09-14 15:17:13 keypool added key 37, size=37
+2017-09-14 15:17:13 keypool added key 38, size=38
+2017-09-14 15:17:13 keypool added key 39, size=39
+2017-09-14 15:17:13 keypool added key 40, size=40
+2017-09-14 15:17:13 keypool added key 41, size=41
+2017-09-14 15:17:13 keypool added key 42, size=42
+2017-09-14 15:17:13 keypool added key 43, size=43
+2017-09-14 15:17:13 keypool added key 44, size=44
+2017-09-14 15:17:13 keypool added key 45, size=45
+2017-09-14 15:17:13 keypool added key 46, size=46
+2017-09-14 15:17:13 keypool added key 47, size=47
+2017-09-14 15:17:13 keypool added key 48, size=48
+2017-09-14 15:17:13 keypool added key 49, size=49
+2017-09-14 15:17:13 keypool added key 50, size=50
+2017-09-14 15:17:13 keypool added key 51, size=51
+2017-09-14 15:17:13 keypool added key 52, size=52
+2017-09-14 15:17:13 keypool added key 53, size=53
+2017-09-14 15:17:13 keypool added key 54, size=54
+2017-09-14 15:17:13 keypool added key 55, size=55
+2017-09-14 15:17:13 keypool added key 56, size=56
+2017-09-14 15:17:13 keypool added key 57, size=57
+2017-09-14 15:17:13 keypool added key 58, size=58
+2017-09-14 15:17:13 keypool added key 59, size=59
+2017-09-14 15:17:13 keypool added key 60, size=60
+2017-09-14 15:17:13 keypool added key 61, size=61
+2017-09-14 15:17:13 keypool added key 62, size=62
+2017-09-14 15:17:13 keypool added key 63, size=63
+2017-09-14 15:17:13 keypool added key 64, size=64
+2017-09-14 15:17:13 keypool added key 65, size=65
+2017-09-14 15:17:13 keypool added key 66, size=66
+2017-09-14 15:17:13 keypool added key 67, size=67
+2017-09-14 15:17:13 keypool added key 68, size=68
+2017-09-14 15:17:13 keypool added key 69, size=69
+2017-09-14 15:17:13 keypool added key 70, size=70
+2017-09-14 15:17:13 keypool added key 71, size=71
+2017-09-14 15:17:13 keypool added key 72, size=72
+2017-09-14 15:17:13 keypool added key 73, size=73
+2017-09-14 15:17:13 keypool added key 74, size=74
+2017-09-14 15:17:13 keypool added key 75, size=75
+2017-09-14 15:17:13 keypool added key 76, size=76
+2017-09-14 15:17:13 keypool added key 77, size=77
+2017-09-14 15:17:13 keypool added key 78, size=78
+2017-09-14 15:17:13 keypool added key 79, size=79
+2017-09-14 15:17:13 keypool added key 80, size=80
+2017-09-14 15:17:13 keypool added key 81, size=81
+2017-09-14 15:17:13 keypool added key 82, size=82
+2017-09-14 15:17:13 keypool added key 83, size=83
+2017-09-14 15:17:14 keypool added key 84, size=84
+2017-09-14 15:17:14 keypool added key 85, size=85
+2017-09-14 15:17:14 keypool added key 86, size=86
+2017-09-14 15:17:14 keypool added key 87, size=87
+2017-09-14 15:17:14 keypool added key 88, size=88
+2017-09-14 15:17:14 keypool added key 89, size=89
+2017-09-14 15:17:14 keypool added key 90, size=90
+2017-09-14 15:17:14 keypool added key 91, size=91
+2017-09-14 15:17:14 keypool added key 92, size=92
+2017-09-14 15:17:14 keypool added key 93, size=93
+2017-09-14 15:17:14 keypool added key 94, size=94
+2017-09-14 15:17:14 keypool added key 95, size=95
+2017-09-14 15:17:14 keypool added key 96, size=96
+2017-09-14 15:17:14 keypool added key 97, size=97
+2017-09-14 15:17:14 keypool added key 98, size=98
+2017-09-14 15:17:14 keypool added key 99, size=99
+2017-09-14 15:17:14 keypool added key 100, size=100
+2017-09-14 15:17:14 keypool added key 101, size=101
+2017-09-14 15:17:14 keypool reserve 1
+2017-09-14 15:17:14 keypool keep 1
+2017-09-14 15:17:14  wallet                 1232ms
+2017-09-14 15:17:14 init message: Activating best chain...
+2017-09-14 15:17:14 mapBlockIndex.size() = 1
+2017-09-14 15:17:14 nBestHeight = 0
+2017-09-14 15:17:14 setKeyPool.size() = 100
+2017-09-14 15:17:14 mapWallet.size() = 0
+2017-09-14 15:17:14 mapAddressBook.size() = 1
+2017-09-14 15:17:14 init message: Loading addresses...
+2017-09-14 15:17:14 ERROR: Read: Failed to open file /data/node-pool/regtest/peers.dat
+2017-09-14 15:17:14 Invalid or missing peers.dat; recreating
+2017-09-14 15:17:14 Loaded 0 addresses from peers.dat  0ms
+2017-09-14 15:17:14 torcontrol thread start
+2017-09-14 15:17:14 dnsseed thread start
+2017-09-14 15:17:14 Loading addresses from DNS seeds (could take a while)
+2017-09-14 15:17:14 0 addresses found from DNS seeds
+2017-09-14 15:17:14 dnsseed thread exit
+2017-09-14 15:17:14 init message: Done loading
+2017-09-14 15:17:14 net thread start
+2017-09-14 15:17:14 msghand thread start
+2017-09-14 15:17:14 addcon thread start
+2017-09-14 15:17:14 opencon thread start
+2017-09-14 15:17:14 receive version message: /MagicBean:1.0.11/: version 170002, blocks=0, us=0.0.0.0:0, peer=1
+2017-09-14 15:17:14 Added time data, samples 2, offset +0 (+0 minutes)
+2017-09-14 15:17:14 receive version message: /MagicBean:1.0.11/: version 170002, blocks=0, us=0.0.0.0:0, peer=2
+2017-09-14 15:17:14 receive version message: /MagicBean:1.0.11/: version 170002, blocks=0, us=0.0.0.0:0, peer=3
+2017-09-14 15:17:44 keypool added key 102, size=101
+2017-09-14 15:17:44 keypool reserve 2
+2017-09-14 15:17:44 keypool return 2
+2017-09-14 15:18:15 Adding fixed seed nodes as DNS doesn't seem to be available.
+2017-09-14 15:18:41 keypool reserve 2
+2017-09-14 15:18:41 CreateNewBlock(): total size 1000
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 ERROR: CheckProofOfWork(): hash doesn't match nBits
+2017-09-14 15:18:41 Pre-allocating up to position 0x100000 in rev00000.dat
+2017-09-14 15:18:41 UpdateTip: new best=0474ab706f55392c15c460b9c134b0505776672dba1abae39e076641b42a7e0e  height=1  log2_work=5.0874628  tx=2  date=2017-09-14 15:18:41 progress=1.000000  cache=0.0MiB(1tx)
+2017-09-14 15:18:41 AddToWallet 1f0f0919fcea70c9bbe18f70e65e227e19e2ddb2547675fde1227a5546a28a61  new
+2017-09-14 15:18:41 keypool return 2
+2017-09-14 15:19:40 tor: Thread interrupt
+2017-09-14 15:19:40 torcontrol thread exit
+2017-09-14 15:19:40 addcon thread interrupt
+2017-09-14 15:19:40 msghand thread interrupt
+2017-09-14 15:19:40 opencon thread interrupt
+2017-09-14 15:19:40 scheduler thread interrupt
+2017-09-14 15:19:40 net thread interrupt
+2017-09-14 15:19:40 Shutdown: In progress...
+2017-09-14 15:19:40 StopRPC: waiting for async rpc workers to stop
+2017-09-14 15:19:40 StopNode()
+2017-09-14 15:19:40 Shutdown: done
